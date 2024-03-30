@@ -80,3 +80,7 @@
     margin:20px auto;
     align-items: center;
 }
+.deadline{
+    font-family: "Noto Sans KR";
+    color: var(--color-orange-main);
+}
