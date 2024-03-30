@@ -1,0 +1,181 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+:root{
+    --color-main-black: #3e3e3e;
+    --color-orange-main: #fe9519;
+}
+.navbar{
+    background-color: var(--color-main-black);
+    display:flex;
+}
+.kau_likelion_logo{
+    width:40px;
+    height: 40px;
+    border-radius: 8px;
+}
+.likelionlogo_btn{
+    width :60px;
+    height :60px;
+    background-color: #ffffff ;
+    border: none;
+    border-radius: 8px;
+    font-family: "Gmarket-Sans";
+    color:var(--color-orange-main);
+    font-size:12px;
+}
+.HOME{color:#fe9519;}
+.homebtn_div{
+    width : 50px;
+    display : block;
+    flex-direction : column;
+    margin-top : 10px;
+    margin-right : 0;
+    margin-left: auto;
+}
+.likelion_title{
+    font-family: "Gmarket_Sans";
+    font-weight : bold;
+    color : #ffffff;
+    font-size : 30px;
+}
+.kau_title{
+    font-family: "Gmarket_Sans";
+    color : #ffffff;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 0;
+}
+.homework_btn{
+    width:40px;
+    height:40px;
+    background-color : var(--color-main-black);
+    border : 1px solid #ffffff;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 0;
+}
+.assignment_backpack{
+    width:40px;
+    height:40px;
+    margin-bottom: 6px;
+}
+.homework_list{
+    font-family: "Gmarket Sans";
+    color : #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+}
+.assignment_nav{
+    width:50px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 0;
+}
+.navbar_title_txt{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin : auto;
+}
+
+.introd_main{
+    margin:0px auto;
+    width: 500px;
+    margin-top :0px;
+}
+
+.title{
+    margin-top: 10px;
+    color : #3e3e3e;
+    border-bottom: 1px solid #fe9519;
+    box-shadow: inset 0 -2px 0 #fe9519;
+}
+
+.detail{
+    display: block;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.cookie{
+    width: 216px;
+    height: 288px;
+}
+
+.cookie_1{
+    width: 216px;
+    height: 288px;
+}
+
+.zz{
+    font-size:12px;
+}
+
+.footerbar {
+    background-color: var(--color-main-black);
+    display: flex;
+}
+.footer_title {
+    font-family: "Gmarket Sans";
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.footer_menus{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 12px;
+    padding-bottom: 45px;
+}
+.manavers{
+    font-weight: bold;
+}
+
+.footer_txt_div{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.manavers{margin-left: 0px;}
+.KAU_likelion{margin-left: 60px;}
+.likelion_Univ{margin-left: 60px;}
+
+html, body{
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+
+footer{
+    height : 170px;
+    position: -ms-device-fixed;
+    bottom : 0;
+    width: 100%;
+}
